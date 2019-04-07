@@ -48,6 +48,8 @@ Training and testing loss in 55,000 iterations of Sentiment TB. Up: Training. Do
  width="720" height="250" />
 </p>
 
+<br>
+
 Samples generated from encoded Gaussian of Sentiment TB dataset. Distribution of each category is approximately unit Gaussian, which corresponds to defined prior.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/latent.png" 
@@ -61,6 +63,8 @@ training objective.
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_512.jpg" 
  width="700" height="220" />
 </p>
+
+<br>
 
 Training and testing loss in 45,000 iterations of Amazon Reviews with hidden size 256. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted
 training objective.
