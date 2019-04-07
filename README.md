@@ -45,7 +45,7 @@ Training loss in 100,000 iterations of Pitchfork. From left to right are ELBO, K
 Training and testing loss in 55,000 iterations of Sentiment TB. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/sentiment.jpg" 
- width="700" height="250" />
+ width="720" height="250" />
 </p>
 
 Samples generated from encoded Gaussian of Sentiment TB dataset. Distribution of each category is approximately unit Gaussian, which corresponds to defined prior.
