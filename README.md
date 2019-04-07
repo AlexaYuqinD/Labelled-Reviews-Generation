@@ -29,7 +29,7 @@ control variables.
 <p align="center">Model Architecture</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/VAE.png" 
- width="600" height="200" />
+ width="700" height="200" />
 </p>
 
 ## 4. Experiments
@@ -38,20 +38,20 @@ control variables.
 Training loss in 100,000 iterations of Pitchfork. From left to right are ELBO, KL, reconstruction error and the weighted training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/pitch.png" 
- width="500" height="200" />
+ width="600" height="200" />
 </p>
 
 ### Sentiment TB
 Training and testing loss in 55,000 iterations of Sentiment TB. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/sentiment.jpg" 
- width="500" height="200" />
+ width="600" height="250" />
 </p>
 
 Samples generated from encoded Gaussian of Sentiment TB dataset. Distribution of each category is approximately unit Gaussian, which corresponds to defined prior.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/latent.png" 
- width="500" height="200" />
+ width="600" height="250" />
 </p>
 
 ### Amazon Reviews
@@ -59,14 +59,14 @@ Training and testing loss in 10,000 iterations of Amazon Reviews with hidden siz
 training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_512.jpg" 
- width="500" height="300" />
+ width="500" height="200" />
 </p>
 
 Training and testing loss in 45,000 iterations of Amazon Reviews with hidden size 256. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted
 training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_256.jpg" 
- width="500" height="300" />
+ width="500" height="200" />
 </p>
 
 ## 5. Error Analysis
@@ -81,21 +81,21 @@ Possible explanations:
 ### Pitchfork
 
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error1.png" 
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error1.jpg" 
  width="400" height="150" />
 </p>
 
 
 ### Sentiment TB
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error2.png" 
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error2.jpg" 
  width="400" height="150" />
 </p>
 
 
 ### Amazon Reviews
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error3.png" 
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/error3.jpg" 
  width="400" height="150" />
 </p>
 
