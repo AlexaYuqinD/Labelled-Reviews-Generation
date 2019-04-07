@@ -29,7 +29,7 @@ control variables.
 <p align="center">Model Architecture</p>
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/VAE.png" 
- width="400" height="110" />
+ width="600" height="200" />
 </p>
 
 ## 4. Experiments
@@ -38,35 +38,35 @@ control variables.
 Training loss in 100,000 iterations of Pitchfork. From left to right are ELBO, KL, reconstruction error and the weighted training objective.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/pitch.png" 
- width="400" height="150" />
+ width="500" height="200" />
 </p>
 
 ### Sentiment TB
 Training and testing loss in 55,000 iterations of Sentiment TB. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted training objective.
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/sentiment.png" 
- width="400" height="150" />
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/sentiment.jpg" 
+ width="500" height="200" />
 </p>
 
 Samples generated from encoded Gaussian of Sentiment TB dataset. Distribution of each category is approximately unit Gaussian, which corresponds to defined prior.
 <p align="center">
 <img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/latent.png" 
- width="400" height="150" />
+ width="500" height="200" />
 </p>
 
 ### Amazon Reviews
 Training and testing loss in 10,000 iterations of Amazon Reviews with hidden size 512. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted
 training objective.
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_512.png" 
- width="400" height="150" />
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_512.jpg" 
+ width="500" height="300" />
 </p>
 
 Training and testing loss in 45,000 iterations of Amazon Reviews with hidden size 256. Up: Training. Down: Testing. From left to right are ELBO, KL, reconstruction error and the weighted
 training objective.
 <p align="center">
-<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_256.png" 
- width="400" height="150" />
+<img src="https://github.com/AlexaYuqinD/Labelled-Reviews-Generation/blob/master/images/amazon_256.jpg" 
+ width="500" height="300" />
 </p>
 
 ## 5. Error Analysis
